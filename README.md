@@ -20,7 +20,7 @@ and the dependency:
 
 ```xml
 <dependency>
-    <groupId>com.github.bojanzdelar</groupId>
+    <groupId>com.github.medelafia</groupId>
     <artifactId>learning-management-system-shared-library</artifactId>
     <version>Tag</version>
 </dependency>
