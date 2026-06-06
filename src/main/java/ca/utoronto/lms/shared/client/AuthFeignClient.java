@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(name = "auth-service", contextId = "authFeignClient")
+@FeignClient(name = "auth-service", url="http://auth-service:8081")
 public interface AuthFeignClient {
     @GetMapping("/users/username/{username}")
     UserDetailsDTO getUser(@PathVariable String username);
